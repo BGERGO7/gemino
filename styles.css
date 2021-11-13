@@ -82,10 +82,20 @@ body{
     text-align: center;
     border: 2px solid black;
     border-radius: 10px;
+    padding-bottom: 3vw;
   }
 
+.column_links{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5vw;
+}
 .column_text{
     font-size: 2vw;
+}
+
+.column_title{
+    font-size: 3vw;
 }
 
 @media screen and (max-width: 600px) {
@@ -110,6 +120,8 @@ body{
     }
     .column {
         width: 100%;
+        margin: auto;
+        margin-bottom: 5%;
     }
 }
 
@@ -149,4 +161,10 @@ body{
     margin-left: auto;
     margin-right: auto;
     height: auto;
+}
+
+.bottom_box{
+    margin-top: 5vw;
+    background-color: gray;
+    color: lightgray;
 }
