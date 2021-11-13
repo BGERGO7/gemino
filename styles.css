@@ -1,23 +1,7 @@
-/*
-.header{
-    background-color: #000;
-    color: #fff;
-    width: 100%;
-    padding: 15px;
-    font-family: "Lucida Sans";
-}
-*/
-
-/*
-.topnav a:hover{
-    background-color: #ddd;
-    color: #000;
-}
-*/
-
 *{
     box-sizing: border-box;
 }
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -46,6 +30,7 @@ body{
 .topnav{
     overflow: hidden;
     background-color: #000;
+    margin-bottom: 50px;
 }
 
 .topnav a{
@@ -58,14 +43,6 @@ body{
     text-decoration: none;
 }
 
-.topnav-centered a{
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .topnav a.active{
     background-color: #000;
     color:white;
@@ -73,6 +50,22 @@ body{
 
 .topnav .icon{
     display: none;
+}
+
+.logo{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.title{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    background-color: #000;
+    margin-bottom: 100px;
 }
 
 .column {
@@ -83,31 +76,33 @@ body{
     border: 2px solid black;
     border-radius: 10px;
     padding-bottom: 3vw;
-  }
-
-.column_links{
-    text-decoration: none;
-    color: #000;
-    font-size: 1.5vw;
-}
-.column_text{
-    font-size: 2vw;
 }
 
 .column_title{
     font-size: 3vw;
 }
 
+.column_text{
+    font-size: 2vw;
+}
+
+.column_links{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5vw;
+}
+
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {
+        display: none;
+    }
     .topnav a.icon {
       float: right;
       display: block;
     }
-}
-
-@media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive{
+        position: relative;
+    }
     .topnav.responsive .icon {
       position: absolute;
       right: 0;
@@ -123,44 +118,6 @@ body{
         margin: auto;
         margin-bottom: 5%;
     }
-}
-
-
-.option1{
-    background-color: white;
-    column-count: 3;
-}
-
-.box{
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-}
-
-.title{
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-    background-color: #000;
-}
-  
-.box .row.header {
-  flex: 0 1 auto;
-}
-.box .row.content {
-    flex: 1 1 auto;
-}
- 
-.box .row.footer {
-  flex: 0 1 40px;
-}
-
-.logo{
-    width: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
 }
 
 .bottom_box{
