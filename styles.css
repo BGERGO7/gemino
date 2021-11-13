@@ -77,10 +77,16 @@ body{
 
 .column {
     float: left;
-    width: 32%;
-    margin: 0.5%;
+    width: 27.33%;
+    margin: 3%;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
   }
+
+.column_text{
+    font-size: 2vw;
+}
 
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
