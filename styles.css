@@ -26,6 +26,7 @@ footer{
     background-color: gray;
     color: lightgray;
     padding-bottom: .5vw;
+    
 }
 
 .row::after {
@@ -100,6 +101,10 @@ footer{
     text-decoration: none;
     color: #000;
     font-size: 15px;
+}
+
+.about{
+    margin: 100px;
 }
 
 @media screen and (max-width: 600px) {
