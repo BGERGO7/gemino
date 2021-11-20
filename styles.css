@@ -108,6 +108,22 @@ footer{
     font-size: 20px;
 }
 
+iframe{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+}
+
+.contact_column {
+    float: left;
+    width: 43.3%;
+    margin: 3%;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -139,5 +155,8 @@ footer{
         margin: 5%;
         width: 90.33%;
         margin-bottom: 100px;
+    }
+    .contact_column{
+        width: 100%;
     }
 }
