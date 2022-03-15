@@ -20,71 +20,61 @@
             </a>
         </div>
 
-        <h1><p align="center" style="font-size: 70px;">Árlista</p></h1>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+          </script>
 
-        <table align="center" style="font-size: x-large; text-align: center;" cellpadding=5>
+        <p align="center" class="prices_title">Árlista</p>
+
+        <table cellpadding=5>
             <tr>
                 <th>Javítás neve</th>
                 <th>Ár</th>
             </tr>
             <tr>
-                <td>valami1</td>
-                <td>16472 Forint</td>
+                <td>Autószerelés óradíj</td>
+                <td>9.500 Ft/óra + Áfa</td>
             </tr>
             <tr>
-                <td>valami2</td>
-                <td>4712 Forint</td>
+                <td>Villamos javítás óradíj</td>
+                <td>10.500 Ft/óra + Áfa</td>
             </tr>
             <tr>
-                <td>valami3</td>
-                <td>11236 Forint</td>
+                <td>Klíma ózonos tisztítás</td>
+                <td>4.500 Ft/db + Áfa</td>
             </tr>
             <tr>
-                <td>valami4</td>
-                <td>46472613 Forint</td>
+                <td>Fékpadi mérés</td>
+                <td>5.000 Ft/db + Áfa</td>
             </tr>
             <tr>
-                <td>valami5</td>
-                <td>123784 Forint</td>
-            </tr>
-            <tr>
-                <td>valami6</td>
-                <td>363286 Forint</td>
-            </tr>
-            <tr>
-                <td>valami7</td>
-                <td>538753106 Forint</td>
-            </tr>
-            <tr>
-                <td>valami1</td>
-                <td>16472 Forint</td>
-            </tr>
-            <tr>
-                <td>valami2</td>
-                <td>4712 Forint</td>
-            </tr>
-            <tr>
-                <td>valami3</td>
-                <td>11236 Forint</td>
-            </tr>
-            <tr>
-                <td>valami4</td>
-                <td>46472613 Forint</td>
-            </tr>
-            <tr>
-                <td>valami5</td>
-                <td>123784 Forint</td>
-            </tr>
-            <tr>
-                <td>valami6</td>
-                <td>363286 Forint</td>
-            </tr>
-            <tr>
-                <td>valami7</td>
-                <td>538753106 Forint</td>
+                <td>Diagnosztika (Delphi), hibakód olvasás, hibakód törlés, beállítások</td>
+                <td>11.000 Ft/db +Áfa</td>
             </tr>
 
         </table>
+        <p class="prices_title" align="center"><u>Figyelem!</u></p>
+        
+        <p align="justify" id="figyelem_arak">Szervizünk minden munkáról készpénzfizetési számlát állít ki! Ehhez
+          a megrendelő adatainak megadása szükséges, név, cím és cégek
+          esetén adószám. Csak ezen adatok megadása után végezzük el a
+          javításokat. Fentiekre tekintettel a munkát csak akkor vállaljuk, ha a
+          számlázáshoz szükséges adatok megadása megtörténik.
+          <br><br>
+          <i>A számla kiegyenlítéséig a beépített alkatrészek, anyagok a Gemino
+          Dízel Kft tulajdonát képezik.</i>
+          <br><br>
+          <i>Javítás után át nem vett gépkocsikra tárolási díjat
+          számítunk fel, ennek összege: <u>3.000 Ft/nap +Áfa!</u></i>
+        </p>
+
         <footer>
             <hr style="color: #fff;">
             <p align="center" style="font-size: 10px; ">
