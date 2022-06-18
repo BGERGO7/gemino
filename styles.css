@@ -148,10 +148,12 @@ iframe{
     .topnav a:not(:first-child) {
         display: none;
     }
+    
     .topnav a.icon {
       float: right;
       display: block;
     }
+    
     .topnav.responsive{
         position: relative;
     }
@@ -166,7 +168,7 @@ iframe{
       text-align: left;
     }
     .logo{
-        width: 400px;
+        width: 375px;
     }
     table{
         margin-left: auto;
