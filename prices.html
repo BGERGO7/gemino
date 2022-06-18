@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Gemino Szervíz - Árak</title>
+    </head>
+    <body>
+    
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Kezdőlap</a>
+        <a href="prices.html">Árlista</a>
+        <a href="contact.html">Kapcsolat</a>
+        <a href="about.html">Rólunk</a>
+        <a href="https://www.facebook.com/bukki.szerviz" style="float: right;"target="_blank">
+          <img src="facebook.png" alt="" style="width: 28px;">
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+          </script>
+
+        <p align="center" class="prices_title">Árlista</p>
+
+        <table cellpadding=5>
+            <tr>
+                <th>Javítás neve</th>
+                <th>Ár</th>
+            </tr>
+            <tr>
+                <td>Autószerelés óradíj</td>
+                <td>9.500 Ft/óra + Áfa</td>
+            </tr>
+            <tr>
+                <td>Villamos javítás óradíj</td>
+                <td>10.500 Ft/óra + Áfa</td>
+            </tr>
+            <tr>
+                <td>Klíma ózonos tisztítás</td>
+                <td>4.500 Ft/db + Áfa</td>
+            </tr>
+            <tr>
+                <td>Fékpadi mérés</td>
+                <td>5.000 Ft/db + Áfa</td>
+            </tr>
+            <tr>
+                <td>Diagnosztika (Delphi), hibakód olvasás, hibakód törlés, beállítások</td>
+                <td>11.000 Ft/db +Áfa</td>
+            </tr>
+
+        </table>
+        <p class="prices_title" align="center"><u>Figyelem!</u></p>
+        
+        <p align="justify" id="figyelem_arak">Szervizünk minden munkáról készpénzfizetési számlát állít ki! Ehhez
+          a megrendelő adatainak megadása szükséges, név, cím és cégek
+          esetén adószám. Csak ezen adatok megadása után végezzük el a
+          javításokat. Fentiekre tekintettel a munkát csak akkor vállaljuk, ha a
+          számlázáshoz szükséges adatok megadása megtörténik.
+          <br><br>
+          <i>A számla kiegyenlítéséig a beépített alkatrészek, anyagok a Gemino
+          Dízel Kft tulajdonát képezik.</i>
+          <br><br>
+          <i>Javítás után át nem vett gépkocsikra tárolási díjat
+          számítunk fel, ennek összege: <u>3.000 Ft/nap +Áfa!</u></i>
+        </p>
+
+        <footer>
+            <hr style="color: #fff;">
+            <p align="center" style="font-size: 10px; ">
+              Elérhetőség
+              <br><br>
+              Gemino Dízel Kft.
+              <br>
+              2400 Dunaújváros, Papírgyári út 55.
+              <br>
+              1035 Budapest, Miklós utca 13.
+              <br><br>
+              E-mail: info@geminofolia.hu
+              <br>
+              Telefon: +36 30 464 8104
+              <br><br>
+              Minden jog fenntartva.
+            </p>
+          </footer>
+    </body>
+</html>
