@@ -55,6 +55,10 @@ footer{
     text-decoration: none;
 }
 
+#facebook{
+    text-decoration: none;
+}
+
 .topnav a.active{
     background-color: #000;
     color:white;
