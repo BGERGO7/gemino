@@ -86,6 +86,10 @@ footer{
     margin-bottom: 100px;
 }
 */
+
+.mySlides {
+      display:none;
+}
 .column {
     float: left;
     width: 27.33%;
@@ -132,6 +136,11 @@ iframe{
 
 .prices_title{
     font-size: 5em;
+    padding-bottom: 100px;
+}
+
+.paragraph{
+    padding-bottom: 20px;
 }
 
 .contact_column {
@@ -183,6 +192,7 @@ iframe{
     }
     .prices_title{
         font-size: 2em;
+        padding-bottom: 100px;
     }
     #figyelem_arak{
         font-size: medium;
