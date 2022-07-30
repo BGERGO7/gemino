@@ -77,16 +77,6 @@ body{
     padding-bottom: 50px;
 }
 
-/*
-.title{
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-    background-color: #000;
-    margin-bottom: 100px;
-}
-*/
-
 .mySlides {
       display:none;
 }
@@ -140,6 +130,7 @@ iframe{
 }
 
 .paragraph{
+    font-size: large;
     padding-bottom: 20px;
 }
 
@@ -207,21 +198,5 @@ iframe{
     .contact_column{
         width: 100%;
     }
-    /*
-    table{
-        margin-left: auto;
-        margin-right: auto;
-        font-size: x-large;
-        width: 50em;
-    }
-    */
 }
 }
-
-/*
-@media screen and (max-height:1080px){
-    table{
-        padding-bottom: 10em;
-    }
-}
-*/
