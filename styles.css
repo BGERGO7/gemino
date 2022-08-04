@@ -113,12 +113,23 @@ body{
 }
 
 .column_title{
+    
     font-size: 50px;
 }
 
 .column_text{
     font-size: 20px;
     margin: 25px;
+}
+
+.paragraph{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.contact_paragraph{
+    font-size: 20px; 
+    line-height: 1.6;
 }
 
 .column_links{
@@ -146,15 +157,20 @@ iframe{
     height: 400px;
 }
 
-.prices_title{
-    font-size: 5em;
-    padding-bottom: 100px;
+.prices{
+    font-size: 25px;
 }
 
-.paragraph{
-    font-size: large;
-    padding-bottom: 20px;
+.prices_title{
+    font-size: 100px;
 }
+
+.sub_title{
+    padding-top: 30px;
+    font-size: 75px;
+}
+
+
 
 .contact_column {
     padding-top: 20px;
@@ -182,6 +198,7 @@ iframe{
     
     .topnav.responsive{
         position: relative;
+        transition: float 1s;
     }
     .topnav.responsive .icon {
       position: absolute;
@@ -203,10 +220,29 @@ iframe{
         width: 20em;
         padding-bottom: 2em;
     }
-    .prices_title{
-        font-size: 2em;
-        padding-bottom: 100px;
+    .prices{
+        font-size: 20px;
     }
+    .prices_title{
+        font-size: 50px;
+
+    }
+
+    .sub_title{
+        font-size: 30px;
+    }
+    
+
+    .paragraph{
+        font-size: 20px;
+        margin: 0px;
+    }
+
+    .contact_paragraph{
+        font-size: 15px; 
+        line-height: 1.6;
+    }
+
     #figyelem_arak{
         font-size: medium;
     }
